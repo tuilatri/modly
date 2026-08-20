@@ -1,0 +1,21 @@
+Các bước chạy Modly:
+
+1. Cài đặt dependencies JavaScript:
+   npm install
+
+2. Thiết lập Python backend:
+   cd api
+   python -m venv .venv
+   .venv\Scripts\activate      (Windows)
+   source .venv/bin/activate   (Linux/macOS)
+   pip install -r requirements.txt
+   cd ..
+
+3. Chạy ứng dụng ở chế độ phát triển:
+   npm run dev
+
+Hoặc dùng script khởi động nhanh:
+- Windows: launch.bat
+- Linux/macOS: ./launch.sh
+
+Lưu ý: Đảm bảo đã cài Node.js và Python.
